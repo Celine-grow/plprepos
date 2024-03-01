@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="Authur" content="Celine Loise">
+    <title>"MY WEBPAGE"</title>
+    <style>
+        section{
+           display:none;
+        }
+    </style>
+    <style>
+        section#Menu li img {
+          max-height: 400px;
+          padding: 20px;
+          object-fit: cover; 
+          width: 100%;
+        }
+        section#Menu ul{
+            gap: 30px;
+        }
+      </style>
+</head>
+<body>
+ <header>
+    <h1>Sustainable Bytes: Blending Nature, Tech, and Culinary Delights"</h1>
+    <img src="https://media.istockphoto.com/id/1393858554/photo/relational-database-tables-with-server-room-and-datacenter-background-concept-of-database.jpg?s=2048x2048&w=is&k=20&c=gkDXd1uM-9SDSxO5JXkqIBRQZpg1xBNLeG6bBbzEpqI=" 
+    alt="Technology image" style="width: 30%; height: 55%;">
+    <img src="https://images.unsplash.com/photo-1539667468225-eebb663053e6?q=80&w=1417&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    alt="Nature Image" style="width: 30%;  height: 55%;">
+    <img src="https://media.istockphoto.com/id/882186476/photo/sharing-platter-of-a-traditional-kenyan-dish-nyama-choma-and-accompaniments-of-kachumbari.jpg?s=2048x2048&w=is&k=20&c=2pc4RDS3S7Mm7pJdNEjQhsE_PoEj8b3cZuEWl9a2CEg="
+    alt="Food image" style="width: 35%; height: 40%;">
+ </header>
+ <nav>
+    <div id="MyMenu">
+        <ul>
+            <li><a href="#Home" onclick="ShowSection('Home')">HOME</a></li>
+            <li><a href="#Gallery" onclick="ShowSection('Gallery')">Gallery</a></li>
+            <li><a href="#Menu" onclick="ShowSection('Menu')">Menu</a></li>
+        </ul>
+     </div> 
+</nav>
+    <section id="Home" >
+        <h1>HOME PAGE</h1>
+        <p>"Step into the TechSphere: Where Innovation and Imagination Collide! 🌐🚀"</p>
+        <a href="https://techcrunch.com" target="_blank">
+        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Feel at home with tech" style="width: 85%;  height: 2%;">
+        </a>
+    </section>
+    <section id="Gallery">
+        <a href="https://www.treehugger.com" target="_blank">
+            <img src="https://images.unsplash.com/photo-1520962922320-2038eebab146?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Nature image" style="width: 30%;height: 25%;">
+        </a>
+        <a href="https://arcticwild.com" target="_blank">
+            <img src="https://plus.unsplash.com/premium_photo-1664360971475-d84469e7d7aa?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Nature image" style="width: 30%;height: 25%;">
+        </a>
+        <a href="https://wwf.panda.org/?gad_source=1&gclid=Cj0KCQiA84CvBhCaARIsAMkAvkLHKuMbOLlXUu44h9gtWmh1aGnSLwUC8EoksNQ5pI4VcfyYxDl9keIaAvX0EALw_wcB" target="_blank">
+            <img src="https://plus.unsplash.com/premium_photo-1675827055694-010aef2cf08f?q=80&w=1424&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Nature image" style="width: 30%;height: 45%;">
+        </a>
+    </section>
+    <section id="Menu" >
+        <ul style="list-style-type: none; display: flex; flex-wrap: wrap; width: 100%;">
+            <li style="width: 55%;">
+                <h2>Ugali with Fish with Sukuma</h2>
+                <a href="https://www.delish.com/" target="_blank">
+                <img src="https://media.istockphoto.com/id/1464175219/photo/tilapia-stew-ugali-and-sukuma-wiki-kenyan-food.jpg?s=2048x2048&w=is&k=20&c=khkgRWk3b62nLeQVRysDDjj0lkGAHTEg14wOVr70Eb8="
+                alt="Photo of Ugali" >
+                </a>
+            </li>
+            <li style="width: 55%;">
+                <h2>Pizza</h2>
+                <a href="https://www.delish.com/" target="_blank">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?q=80&w=1381&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Photo of Pizza" >
+                </a>
+            </li>
+            <li style="width: 55%;">
+                <h2>Fries</h2>
+                <a href="https://www.delish.com/" target="_blank">
+                <img src="https://media.istockphoto.com/id/94500987/photo/french-fries.jpg?s=2048x2048&w=is&k=20&c=ZRZSmGfVe_qwyr1hgiq3QKGldXDo_hG6b25ISnAUgJE="
+                alt="Photo of Fries" >
+                </a>
+            </li>
+            <li style="width: 55%;">
+                <h2>Hamburger</h2>
+                <a href="https://www.delish.com/" target="_blank">
+                <img src="https://plus.unsplash.com/premium_photo-1675252369719-dd52bc69c3df?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Photo of Hamburger" >
+                </a>
+            </li>
+            <li style="width: 65%;">
+                <h2>Fruit Salad</h2>
+                <a href="https://www.delish.com/" target="_blank">
+                <img src="https://images.unsplash.com/photo-1588068403046-169c80c69938?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Photo of fruit Salad" >
+                </a>
+            </li>
+            <li style="width: 55%;">
+                <h2>Pasta</h2>
+                <a href="https://www.delish.com/" target="_blank">
+                <img src="https://media.istockphoto.com/id/1429067111/photo/spaghetti-bolognese-top-view-close-up-no-people-homemade.jpg?s=2048x2048&w=is&k=20&c=poAuvZcdoUZB9Vc0C6n_aUVivr7nPwz7HOfxS-aX1B4="
+                alt="Photo of Pasta" >
+                </a>
+            </li>
+         </ul>
+</section>
+
+<script>
+    function ShowSection(sectionId){
+       
+        document.querySelectorAll('section').forEach(function (section) {
+            section.style.display = 'none';
+
+            });
+           
+
+            document.getElementById(sectionId).style.display = 'block';
+    }
+    </script>
+
+</body>
+</html>
