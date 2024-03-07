@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MY FORM</title>
+</head>
+<body>
+<form action="" method="post" enctype="multipart/form-data">
+<fieldset>
+    <legend>Student Information</legend>
+<label for="User_name">Name:</label>
+<input type="text" name="User_name" id="User_name" required>
+<br>
+<label for="BirthDate" >Date Of Birth:</label>
+<input type="date" name="BirthDate" id="BirthDate" >
+<br>
+<fieldset>
+    <legend>Gender</legend>
+<input type="radio" name="Identify" id="Identify" value="Female">
+<label >Female</label>
+<br>
+<input type="radio" name="Identify" id="Identify" value="Male">
+<label >Male</label>
+</fieldset>
+<br>
+<textarea name="Your_Address" id="Your_Address" rows="7" cols="30" placeholder="Enter your address"></textarea>
+<br>
+<label for="">TelephoneNo</label>
+<input type="tel" name="MobileNo" id="MobileNo" required pattern="([0-9]{2}-[0-9]{3}-[0-9]{4})" placeholder="12-345-6789">
+<br>
+<label for="emailaddress"> EMAIL:</label>
+    <input type="email" name="emailaddresss" id="emailaddress">
+<br>
+<label for="Course">Course</label>
+<input type="text" name="Course" id="Course" >
+<br>
+</fieldset>
+<br>
+<input type="submit" name="Form_Submission" id="Form_Submission" value="Register">
+<br>
+<input type="reset" name="Clear" id="Clear" value="Cancel">
+</form>
+</body>
+</html>
