@@ -74,6 +74,7 @@ class Sibling1 extends Father{
    }
    //inherited method without declaring body
    void Greetings();
+  
    void display(){
     print(name);
     print(mothername);
@@ -153,5 +154,7 @@ String contents = file.readAsStringSync();
   var numbersInstance = MyNumbers(numbers[0], numbers[1], numbers[2], numbers[3], numbers[4]);
 
   // Display the numbers using a loop
-  numbersInstance.displayNumbers();
+ for (var numberI in numbers){
+    print(numberI);
+  }
 }
