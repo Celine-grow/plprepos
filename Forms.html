@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>
+        MY FORMS
+    </title>
+</head>
+<body>
+<form action="script/data.php" method="post", enctype="multipart/form-data">
+    <label for="IndividualName"> NAME:</label>
+    <input type="text" name="IndividualName" id="IndividualName" required>
+    <br>
+    <label for="emailaddress"> EMAIL:</label>
+    <input type="email" name="emailaddresss" id="emailaddress">
+    <br>
+    <label for="PhoneNo"> PhoneNo:</label>
+    <input type="text" name="PhoeneNo" id="PhoneNo">
+    <br>
+    <textarea name="Your_Bio" id="=Your_Bio" rows="7 " cols="30" placeholder=" Write your bio here" ></textarea>
+    <br>
+    <fieldset>
+        <legend>Your Gender</legend>
+    <input type="radio" name="Identify" id="Identify" vaue="Female">
+    <label for="Identify" >Female</label>
+    <br>
+    <input type="radio" name="Identify" id="Identify" vaue="Male">
+    <label for="Identify" >Male</label>
+    </fieldset>
+    <fieldset>
+        <legend>ACS units offered</legend>
+    <input type="checkbox" name="Units" id="Units" value="Data Structures and Algorithm">
+    <label for="Units" >Data Structures</label>
+    <br>
+    <input type="checkbox" name="Units" id="Units" value="Software Engineering">
+    <label for="Units" >Software Engineering</label>
+    <br>
+    <input type="checkbox" name="Units" id="Units" value="Linear Algebra">
+    <label for="Units">Linear Algebra</label>
+    <br>
+    <input type="checkbox" name="Units" id="Units" value="Computer Arcitecture">
+    <label for="Checkbox" >CompArcitecture</label>
+    <br>
+    <input type="checkbox" name="Units" id="Units" value="Networking">
+    <label for="Units" >Networking</label>
+    <br>
+    <input type="checkbox" name="Units" id="Units" value="Database">
+    <label for="Units" >Database</label>
+    </fieldset>
+    <br>
+    <select name="Class Mode" id="Class Mode">
+        <option value="Select Class Mode">Class Mode</option>
+        <option value="Physical">Physical</option>
+        <option value="Virtual ">Virtual</option>
+    </select>
+    <br>
+    <label for="Passport_Photo" >Attach Passport Photo</label>
+    <input type="file" name="Passport_Photo" id="Passport_Photo" accept="image/*">
+    <br>
+    <input type="submit" name="Submit" id="Submit" value="Register" onclick="">
+    <input type="reset" name="Clear" id="Clear" value="Clear Form" onclick="">
+</form>
+</body>
+</html>
