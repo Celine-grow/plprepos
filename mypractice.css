@@ -1,0 +1,80 @@
+header{
+    background-color: blueviolet;
+    padding: 50px;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 35px;
+    justify-content: center;
+    text-align: center;
+
+}
+#introduction{
+    background-color: aqua;
+    margin: auto;
+
+}
+.Introduction h1{
+    color: black;
+    margin: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    text-align: none;
+    word-spacing: normal;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#skills{
+   
+    padding: 10%;
+    margin: 20px;
+    justify-content: flex-start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+
+}
+.Skills h1{
+    color: black;
+    margin-left: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ul{
+    margin-bottom: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 30px;
+
+}
+#ContactInformation{
+    gap: 10%;
+    
+}
+.Contact h1{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.ol{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    gap: 40px;
+    justify-content:flex-start;
+    
+    
+}
+.ol a{
+    text-decoration: none;
+}
+.ContactItem{
+  
+    padding: 10px;
+}
+@media screen  and (max-width=480px) {
+body{
+    font-size: 15px;
+    margin: auto;
+    padding: 5px;
+}
+    
+}
+
