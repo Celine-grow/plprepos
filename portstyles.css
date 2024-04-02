@@ -1,0 +1,151 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: aqua;
+    height: auto;
+    margin-bottom: 0;
+}
+header nav{
+    color: white;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 2rem 0;
+}
+header ul{
+    text-decoration:none;
+    gap: 15%;
+    display: flex;
+    justify-content: flex-start;
+    text-transform: uppercase;
+}
+header ul a:hover{
+    background-color: plum;
+    justify-content: end;
+    margin-right: 2rem;
+    
+}
+.Container{
+    display: grid;
+    grid-template-columns: 200px 1fr; 
+    margin-bottom: 0;
+    grid-gap: 2px;
+    padding: 10px;
+}
+.MyImage img{
+    height: 400px;
+    width: 610px;
+    margin-right: 3px;
+    align-items: flex-start;
+    padding: 2px;
+    gap: 10px;
+    border: 10px solid palevioletred;
+
+    
+}
+.Home{
+    margin-left: auto;
+    text-align: right;
+    max-width: fit-content;
+    line-break: strict;
+    align-items: end;
+    line-height: 2rem;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.Home h3{
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+.About{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 0;
+   
+
+}
+.About h1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    word-spacing: 3%;
+    color: aqua;
+}
+.About p{
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: nowrap;
+    color: white;
+    
+}
+
+.Skills{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin: auto;
+}
+.Skills h1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    word-spacing: 3%;
+    color: aqua;
+}
+.Skills span{
+    font-family: 'Times New Roman', Times, serif;
+    flex-wrap: nowrap;
+    color: white;
+}
+.Skills ul{
+    text-decoration: none;
+    text-align: left;
+    color: white;
+}
+
+.Contact h1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    word-spacing: 3%;
+    color: aqua;
+    margin-bottom: 0;
+}
+.ol{
+    color: black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content:flex-start;
+    margin-left: 0;
+    margin-top: 0;
+    
+}
+.ol a{
+    text-decoration: none;
+}
+.ContactItem{
+  
+    padding: 15px;
+}
+
+.Image{
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    justify-content:flex-start;
+    
+    
+}
+.images{
+    height: 100px;
+    width: 90px;
+    gap: 30px;
+    padding: 15px;
+}
